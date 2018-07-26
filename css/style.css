@@ -3,9 +3,16 @@
     justify-content: center;
     align-items: center; 
     margin-top: 15%;
+    font-family: 'Roboto', sans-serif;
     
 }
 
 #logo{
     width: 300px;
+}
+.message{
+    border-bottom: solid 2px #F59D33;
+    border-top: solid 2px #F59D33;
+    padding:  10px 0;
+    
 }
