@@ -81,11 +81,31 @@
     color:#F99C2C;
     
 }
-.links dt a:hover{
-    /* color:#ff0066; */
-    font-size: 1.08em;
-    transition: font-size 0.2s  ease;
+
+
+.links dt:nth-child(2):hover {    
+    transform: translateX(15px);
+    transition: transform 0.2s  ease;    
 }
+.links dt:last-child:hover {    
+    transform: translateX(15px);
+    transition: transform 0.2s  ease;    
+}
+.links dt:nth-child(2) {    
+    
+    transition: transform 0.2s  ease;    
+}
+.links dt:last-child {    
+   
+    transition: transform 0.2s  ease;    
+}
+
+
+/* .links dt a:hover{ */
+    /* color:#ff0066; */
+    /* font-size: 1.08em; */
+    /* transition: font-size 0.2s  ease; */
+/* } */
 .links dt:first-child {
     padding-bottom: 0px;
     font-weight: 400;
