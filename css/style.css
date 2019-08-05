@@ -131,3 +131,22 @@
     transform: skewY(-2deg);
 
 }
+.download-icon{
+    
+    
+   
+    width: 30px;
+    background-image: url("../img/dwnld.png");
+    background-position: center;
+   
+    background-repeat: no-repeat;
+    background-size: 18px;
+    
+
+   
+    
+}
+.download-icon:hover{
+    
+    background-image: url("../img/dwnld-orng.png");
+}
