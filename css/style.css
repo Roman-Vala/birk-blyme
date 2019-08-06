@@ -83,7 +83,7 @@
 }
 
 
-.links dt:nth-child(2):hover {    
+/* .links dt:nth-child(2):hover {    
     transform: translateX(15px);
     transition: transform 0.2s  ease;    
 }
@@ -98,7 +98,7 @@
 .links dt:last-child {    
    
     transition: transform 0.2s  ease;    
-}
+} */
 
 
 /* .links dt a:hover{ */
@@ -136,11 +136,11 @@
     
    
     width: 30px;
-    background-image: url("../img/dwnld.png");
+    background-image: url("../img/pdf-dl.png");
     background-position: center;
    
     background-repeat: no-repeat;
-    background-size: 18px;
+    background-size: 45px;
     
 
    
@@ -148,5 +148,5 @@
 }
 .download-icon:hover{
     
-    background-image: url("../img/dwnld-orng.png");
+    background-image: url("../img/pdf-dl-o.png");
 }
