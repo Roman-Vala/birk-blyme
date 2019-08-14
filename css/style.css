@@ -1,3 +1,11 @@
+html { 
+    background: url("../img/bgr.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
 .container {
     display: flex;
     justify-content: center;
@@ -6,9 +14,60 @@
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     font-size: 18px;
-    
-    
-    
+}
+.logo{
+    color: white; 
+    margin-top: 2rem; 
+    margin-left: -3.4rem; 
+}
+.address{
+    color: white; 
+    margin-left: -6.4rem;
+    margin-bottom: 2rem;  
+}
+.contact-info{
+    color: white; 
+    margin-left: -5rem;
+    margin-bottom: 2rem;     
+}
+.uppercase{
+    text-transform: uppercase;
+}
+.weight-700{
+  font-weight: 700;
+}
+.weight-100{
+  font-weight: 100;
+}
+.weight-400{
+  font-weight: 400;
+}
+.link1, .link2{
+  background: #ffffff;
+  height: 1.6rem;
+  width: 300px;
+  margin-bottom: 0.5rem;
+  padding: 5px;
+  display: flex;
+  justify-items: center;
+  
+}
+.link1 a, .link2 a{
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-size: 14px; 
+  
+}
+.link1 a{
+  color: #004B5D;
+}
+.link2 a{
+  color:#F99C2C;
+}
+.link-text{
+  margin: auto;
 }
 .poster{
     width: 547px;
@@ -34,6 +93,16 @@
 }
 .contact dt a{
   color: white;
+  text-decoration:none;
+
+}
+.contact-info div a{
+  color: white;
+  text-decoration:none;
+
+}
+.contact-info div a:hover{
+  color: rgb(167, 170, 9);
   text-decoration:none;
 
 }
@@ -131,22 +200,41 @@
     transform: skewY(-2deg);
 
 }
-.download-icon{
-    
-    
+.message2{
    
-    width: 30px;
-    background-image: url("../img/pdf-dl.png");
-    background-position: center;
-   
-    background-repeat: no-repeat;
-    background-size: 45px;
+    margin: 4rem 0 0 4rem;
+    padding: 0.3rem 1rem;
     
+    color:#0b5b5df7;
+    font-weight: 400;
+    background-color: white;
+    
+    /* transform-origin: right top; */
+    transform: skewY(-2deg);
 
-   
-    
 }
+.download-icon{
+  width: 30px;
+  background-image: url("../img/pdf-dl.png");
+  background-position: center;
+  
+  background-repeat: no-repeat;
+  background-size: 45px;
+}
+.download-icon1{
+  width: 50px;
+  background-image: url("../img/pdf-dl.png");
+  background-position: center;
+  
+  background-repeat: no-repeat;
+  background-size: 45px;
+}
+
 .download-icon:hover{
+    
+    background-image: url("../img/pdf-dl-o.png");
+}
+.download-icon1:hover{
     
     background-image: url("../img/pdf-dl-o.png");
 }
